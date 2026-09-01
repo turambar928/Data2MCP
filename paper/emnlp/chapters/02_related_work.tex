@@ -1,0 +1,13 @@
+\section{Related Work}
+
+\paragraph{Data Analysis Agents.}
+Recent LLM-based agents~\cite{ds1000,spider2v2024,dacomp2025,openhands2024} have progressed from code generation to end-to-end analysis pipelines. DA-Agent~\cite{dacomp2025} uses a three-stage ReAct loop; OpenHands~\cite{openhands2024} provides sandboxed execution. While these systems excel at operational capabilities, they often provide limited methodology-level procedural scaffolding (e.g., explicit checkpoints for verification and systematic evidence cross-checking). Our work complements them by injecting structured domain methodologies.
+
+\paragraph{Tool Use and Multi-Source Retrieval.}
+LLM tool use~\cite{toolformer2023,react2023} enables mid-generation API calls. Multi-hop retrieval~\cite{multihoprag2024,ircot2023} studies evidence gathering; HybridRAG~\cite{hybridrag2024} combines vector and graph retrieval. MCP~\cite{mcp2024} standardizes tool interfaces; we leverage it to unify SQL, Neo4j, FAISS, and pandas as interchangeable sub-agents.
+
+\paragraph{Prompting and Reasoning Structures.}
+Chain-of-thought~\cite{wei2022cot} and least-to-most prompting~\cite{l2m2022} inject reasoning structures through natural language. ReAct~\cite{react2023} interleaves reasoning and action for tool use. While these methods provide ad-hoc reasoning guidance, they lack the systematic frameworks and explicit checkpoints that domain methodologies provide. For example, CoT encourages step-by-step reasoning but does not specify which analytical steps to take or how to validate their execution. ReAct structures tool use but does not embed domain-expert procedural knowledge. Voyager~\cite{voyager2023} injects programmatic skills; Chameleon~\cite{chameleon2023} composes tools via planning. Our work differs by injecting domain-level analytical frameworks (CRISP-DM, ACH) that codify expert practice into structured, reusable specifications with explicit checkpoints for compliance validation, enabling both performance gains and behavioral transparency.
+
+\paragraph{Agent Interpretability.}
+Recent work~\cite{toolbench2023} focuses on understanding tool-calling patterns. Our strategy injection demonstrates that structured methodologies induce verifiable analytical behaviors that align with expert workflows.

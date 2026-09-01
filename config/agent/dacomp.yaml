@@ -1,0 +1,1207 @@
+defaults:
+  - ../llm@default_llm_config: default
+  - _self_
+
+_target_: data2mcp_v2.config.AgentConfig
+agent_configs:
+  # DACOMP-001
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-001"
+    tool_description: "DACOMP-001: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-001/dacomp-001.sqlite"
+
+  # DACOMP-002
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-002"
+    tool_description: "DACOMP-002: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-002/dacomp-002.sqlite"
+
+  # DACOMP-003
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-003"
+    tool_description: "DACOMP-003: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-003/dacomp-003.sqlite"
+
+  # DACOMP-004
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-004"
+    tool_description: "DACOMP-004: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-004/dacomp-004.sqlite"
+
+  # DACOMP-005
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-005"
+    tool_description: "DACOMP-005: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-005/dacomp-005.sqlite"
+
+  # DACOMP-006
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-006"
+    tool_description: "DACOMP-006: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-006/dacomp-006.sqlite"
+
+  # DACOMP-007
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-007"
+    tool_description: "DACOMP-007: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-007/dacomp-007.sqlite"
+
+  # DACOMP-008
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-008"
+    tool_description: "DACOMP-008: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-008/dacomp-008.sqlite"
+
+  # DACOMP-009
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-009"
+    tool_description: "DACOMP-009: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-009/dacomp-009.sqlite"
+
+  # DACOMP-010
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-010"
+    tool_description: "DACOMP-010: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-010/dacomp-010.sqlite"
+
+  # DACOMP-011
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-011"
+    tool_description: "DACOMP-011: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-011/dacomp-011.sqlite"
+
+  # DACOMP-012
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-012"
+    tool_description: "DACOMP-012: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-012/dacomp-012.sqlite"
+
+  # DACOMP-013
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-013"
+    tool_description: "DACOMP-013: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-013/dacomp-013.sqlite"
+
+  # DACOMP-014
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-014"
+    tool_description: "DACOMP-014: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-014/dacomp-014.sqlite"
+
+  # DACOMP-015
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-015"
+    tool_description: "DACOMP-015: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-015/dacomp-015.sqlite"
+
+  # DACOMP-016
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-016"
+    tool_description: "DACOMP-016: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-016/dacomp-016.sqlite"
+
+  # DACOMP-017
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-017"
+    tool_description: "DACOMP-017: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-017/dacomp-017.sqlite"
+
+  # DACOMP-018
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-018"
+    tool_description: "DACOMP-018: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-018/dacomp-018.sqlite"
+
+  # DACOMP-019
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-019"
+    tool_description: "DACOMP-019: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-019/dacomp-019.sqlite"
+
+  # DACOMP-020
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-020"
+    tool_description: "DACOMP-020: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-020/dacomp-020.sqlite"
+
+  # DACOMP-021
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-021"
+    tool_description: "DACOMP-021: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-021/dacomp-021.sqlite"
+
+  # DACOMP-022
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-022"
+    tool_description: "DACOMP-022: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-022/dacomp-022.sqlite"
+
+  # DACOMP-023
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-023"
+    tool_description: "DACOMP-023: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-023/dacomp-023.sqlite"
+
+  # DACOMP-024
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-024"
+    tool_description: "DACOMP-024: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-024/dacomp-024.sqlite"
+
+  # DACOMP-025
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-025"
+    tool_description: "DACOMP-025: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-025/dacomp-025.sqlite"
+
+  # DACOMP-026
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-026"
+    tool_description: "DACOMP-026: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-026/dacomp-026.sqlite"
+
+  # DACOMP-027
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-027"
+    tool_description: "DACOMP-027: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-027/dacomp-027.sqlite"
+
+  # DACOMP-028
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-028"
+    tool_description: "DACOMP-028: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-028/dacomp-028.sqlite"
+
+  # DACOMP-029
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-029"
+    tool_description: "DACOMP-029: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-029/dacomp-029.sqlite"
+
+  # DACOMP-030
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-030"
+    tool_description: "DACOMP-030: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-030/dacomp-030.sqlite"
+
+  # DACOMP-031
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-031"
+    tool_description: "DACOMP-031: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-031/dacomp-031.sqlite"
+
+  # DACOMP-032
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-032"
+    tool_description: "DACOMP-032: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-032/dacomp-032.sqlite"
+
+  # DACOMP-033
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-033"
+    tool_description: "DACOMP-033: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-033/dacomp-033.sqlite"
+
+  # DACOMP-034
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-034"
+    tool_description: "DACOMP-034: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-034/dacomp-034.sqlite"
+
+  # DACOMP-035
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-035"
+    tool_description: "DACOMP-035: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-035/dacomp-035.sqlite"
+
+  # DACOMP-036
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-036"
+    tool_description: "DACOMP-036: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-036/dacomp-036.sqlite"
+
+  # DACOMP-037
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-037"
+    tool_description: "DACOMP-037: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-037/dacomp-037.sqlite"
+
+  # DACOMP-038
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-038"
+    tool_description: "DACOMP-038: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-038/dacomp-038.sqlite"
+
+  # DACOMP-039
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-039"
+    tool_description: "DACOMP-039: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-039/dacomp-039.sqlite"
+
+  # DACOMP-040
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-040"
+    tool_description: "DACOMP-040: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-040/dacomp-040.sqlite"
+
+  # DACOMP-041
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-041"
+    tool_description: "DACOMP-041: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-041/dacomp-041.sqlite"
+
+  # DACOMP-042
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-042"
+    tool_description: "DACOMP-042: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-042/dacomp-042.sqlite"
+
+  # DACOMP-043
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-043"
+    tool_description: "DACOMP-043: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-043/dacomp-043.sqlite"
+
+  # DACOMP-044
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-044"
+    tool_description: "DACOMP-044: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-044/dacomp-044.sqlite"
+
+  # DACOMP-045
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-045"
+    tool_description: "DACOMP-045: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-045/dacomp-045.sqlite"
+
+  # DACOMP-046
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-046"
+    tool_description: "DACOMP-046: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-046/dacomp-046.sqlite"
+
+  # DACOMP-047
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-047"
+    tool_description: "DACOMP-047: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-047/dacomp-047.sqlite"
+
+  # DACOMP-048
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-048"
+    tool_description: "DACOMP-048: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-048/dacomp-048.sqlite"
+
+  # DACOMP-049
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-049"
+    tool_description: "DACOMP-049: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-049/dacomp-049.sqlite"
+
+  # DACOMP-050
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-050"
+    tool_description: "DACOMP-050: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-050/dacomp-050.sqlite"
+
+  # DACOMP-051
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-051"
+    tool_description: "DACOMP-051: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-051/dacomp-051.sqlite"
+
+  # DACOMP-052
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-052"
+    tool_description: "DACOMP-052: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-052/dacomp-052.sqlite"
+
+  # DACOMP-053
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-053"
+    tool_description: "DACOMP-053: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-053/dacomp-053.sqlite"
+
+  # DACOMP-054
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-054"
+    tool_description: "DACOMP-054: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-054/dacomp-054.sqlite"
+
+  # DACOMP-055
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-055"
+    tool_description: "DACOMP-055: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-055/dacomp-055.sqlite"
+
+  # DACOMP-056
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-056"
+    tool_description: "DACOMP-056: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-056/dacomp-056.sqlite"
+
+  # DACOMP-057
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-057"
+    tool_description: "DACOMP-057: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-057/dacomp-057.sqlite"
+
+  # DACOMP-058
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-058"
+    tool_description: "DACOMP-058: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-058/dacomp-058.sqlite"
+
+  # DACOMP-059
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-059"
+    tool_description: "DACOMP-059: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-059/dacomp-059.sqlite"
+
+  # DACOMP-060
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-060"
+    tool_description: "DACOMP-060: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-060/dacomp-060.sqlite"
+
+  # DACOMP-061
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-061"
+    tool_description: "DACOMP-061: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-061/dacomp-061.sqlite"
+
+  # DACOMP-062
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-062"
+    tool_description: "DACOMP-062: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-062/dacomp-062.sqlite"
+
+  # DACOMP-063
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-063"
+    tool_description: "DACOMP-063: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-063/dacomp-063.sqlite"
+
+  # DACOMP-064
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-064"
+    tool_description: "DACOMP-064: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-064/dacomp-064.sqlite"
+
+  # DACOMP-065
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-065"
+    tool_description: "DACOMP-065: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-065/dacomp-065.sqlite"
+
+  # DACOMP-066
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-066"
+    tool_description: "DACOMP-066: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-066/dacomp-066.sqlite"
+
+  # DACOMP-067
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-067"
+    tool_description: "DACOMP-067: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-067/dacomp-067.sqlite"
+
+  # DACOMP-068
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-068"
+    tool_description: "DACOMP-068: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-068/dacomp-068.sqlite"
+
+  # DACOMP-069
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-069"
+    tool_description: "DACOMP-069: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-069/dacomp-069.sqlite"
+
+  # DACOMP-070
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-070"
+    tool_description: "DACOMP-070: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-070/dacomp-070.sqlite"
+
+  # DACOMP-071
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-071"
+    tool_description: "DACOMP-071: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-071/dacomp-071.sqlite"
+
+  # DACOMP-072
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-072"
+    tool_description: "DACOMP-072: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-072/dacomp-072.sqlite"
+
+  # DACOMP-073
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-073"
+    tool_description: "DACOMP-073: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-073/dacomp-073.sqlite"
+
+  # DACOMP-074
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-074"
+    tool_description: "DACOMP-074: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-074/dacomp-074.sqlite"
+
+  # DACOMP-075
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-075"
+    tool_description: "DACOMP-075: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-075/dacomp-075.sqlite"
+
+  # DACOMP-076
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-076"
+    tool_description: "DACOMP-076: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-076/dacomp-076.sqlite"
+
+  # DACOMP-077
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-077"
+    tool_description: "DACOMP-077: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-077/dacomp-077.sqlite"
+
+  # DACOMP-078
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-078"
+    tool_description: "DACOMP-078: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-078/dacomp-078.sqlite"
+
+  # DACOMP-079
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-079"
+    tool_description: "DACOMP-079: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-079/dacomp-079.sqlite"
+
+  # DACOMP-080
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-080"
+    tool_description: "DACOMP-080: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-080/dacomp-080.sqlite"
+
+  # DACOMP-081
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-081"
+    tool_description: "DACOMP-081: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-081/dacomp-081.sqlite"
+
+  # DACOMP-082
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-082"
+    tool_description: "DACOMP-082: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-082/dacomp-082.sqlite"
+
+  # DACOMP-083
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-083"
+    tool_description: "DACOMP-083: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-083/dacomp-083.sqlite"
+
+  # DACOMP-084
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-084"
+    tool_description: "DACOMP-084: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-084/dacomp-084.sqlite"
+
+  # DACOMP-085
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-085"
+    tool_description: "DACOMP-085: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-085/dacomp-085.sqlite"
+
+  # DACOMP-086
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-086"
+    tool_description: "DACOMP-086: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-086/dacomp-086.sqlite"
+
+  # DACOMP-087
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-087"
+    tool_description: "DACOMP-087: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-087/dacomp-087.sqlite"
+
+  # DACOMP-088
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-088"
+    tool_description: "DACOMP-088: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-088/dacomp-088.sqlite"
+
+  # DACOMP-089
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-089"
+    tool_description: "DACOMP-089: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-089/dacomp-089.sqlite"
+
+  # DACOMP-090
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-090"
+    tool_description: "DACOMP-090: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-090/dacomp-090.sqlite"
+
+  # DACOMP-091
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-091"
+    tool_description: "DACOMP-091: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-091/dacomp-091.sqlite"
+
+  # DACOMP-092
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-092"
+    tool_description: "DACOMP-092: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-092/dacomp-092.sqlite"
+
+  # DACOMP-093
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-093"
+    tool_description: "DACOMP-093: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-093/dacomp-093.sqlite"
+
+  # DACOMP-094
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-094"
+    tool_description: "DACOMP-094: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-094/dacomp-094.sqlite"
+
+  # DACOMP-095
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-095"
+    tool_description: "DACOMP-095: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-095/dacomp-095.sqlite"
+
+  # DACOMP-096
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-096"
+    tool_description: "DACOMP-096: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-096/dacomp-096.sqlite"
+
+  # DACOMP-097
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-097"
+    tool_description: "DACOMP-097: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-097/dacomp-097.sqlite"
+
+  # DACOMP-098
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-098"
+    tool_description: "DACOMP-098: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-098/dacomp-098.sqlite"
+
+  # DACOMP-099
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-099"
+    tool_description: "DACOMP-099: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-099/dacomp-099.sqlite"
+
+  # DACOMP-100
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp-100"
+    tool_description: "DACOMP-100: Data analysis database"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-100/dacomp-100.sqlite"
+
+

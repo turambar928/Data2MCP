@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.env
+.venv/
+venv/
+logs/
+output/
+demo/node_modules/
+demo/dist/
+data/benchmark/
+data/vector_store/
+*.sqlite-journal
+.DS_Store

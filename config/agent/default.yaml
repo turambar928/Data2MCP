@@ -1,0 +1,17 @@
+defaults:
+  - ../llm@default_llm_config: default
+  - _self_
+
+_target_: data2mcp_v2.config.AgentConfig
+
+agent_configs:
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "example_sales"
+    tool_description: "Synthetic monthly sales by region and product"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config, ${oc.select:default_llm_config, null}}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      file_path: "./data/examples/sales.sqlite"

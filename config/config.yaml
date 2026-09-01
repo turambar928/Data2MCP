@@ -1,0 +1,11 @@
+defaults:
+  - agent@agents: default
+  - llm@llm: default
+  - _self_
+
+_target_: data2mcp_v2.config.Data2McpConfig
+route_type: "agentic"
+tool_call_timeout: 300
+tool_call_max_length: 10000
+max_turns: 15
+min_charts_required: 2  # 数据分析任务至少需要生成2个图表

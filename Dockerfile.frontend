@@ -1,0 +1,15 @@
+FROM node:lts-slim
+
+WORKDIR /app
+
+COPY demo/package.json demo/package-lock.json ./
+
+RUN npm install
+
+COPY demo ./
+
+RUN npm run build
+
+EXPOSE 5173
+
+CMD ["npm", "run", "preview", "--", "--port", "5173", "--host", "0.0.0.0"]

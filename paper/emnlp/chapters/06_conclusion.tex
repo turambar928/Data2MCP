@@ -1,0 +1,12 @@
+\section{Conclusion}
+
+We propose structured strategy injection for LLM data analysis agents: embedding domain-expert methodologies into the agent's controller context to guide analytical reasoning. Our framework supports fixed, auto-selected, and adaptively generated strategies, enabling deployment with zero to minimal human effort.
+
+To make methodology-driven planning executable and auditable under spatially heterogeneous data sources, we develop Data2MCP, a platform that unifies SQL databases, knowledge graphs, vector stores, and tabular data as MCP-compatible tools, demonstrating strong performance on multi-source query tasks compared to a baseline RAG system and DA-Agent.
+
+Data2MCP excels at heterogeneous multi-source retrieval, while DA-Agent remains strong for deep single-source analysis. Across both architectures, structured strategy injection yields consistent benefits. On DAComp, strategy injection improves multiple metrics for both systems, suggesting that gains come from methodology injection rather than any particular retrieval architecture. Importantly, this pattern also holds across different backbone LLMs and agent implementations, indicating that strategy injection is a broadly applicable controller-level intervention. Routing is task-aware, and case studies highlight four drivers: business understanding, data-quality awareness, counter-intuitive discovery, and actionable recommendations.
+
+Two directions merit exploration:
+(1)~quality-filtered strategy catalogs and learned routing with supervision;
+(2)~further benchmark agent+strategy configurations against fine-tuned models in terms of retrieval performance and total cost (training data/compute and inference-time tool calls). 
+

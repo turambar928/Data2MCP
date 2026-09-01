@@ -1,0 +1,872 @@
+[
+  {
+    "key": "aims_method",
+    "name": "AIMS Method",
+    "description": "A structured approach to problem-solving and analysis.",
+    "full_text": "Identify the problem and set clear objectives. Gather relevant data and analyze it systematically. Develop multiple solutions and evaluate them against the objectives. Select the best solution and implement it, monitoring the results for effectiveness.",
+    "checkpoints": [
+      "identifies the problem and objectives clearly",
+      "develops multiple solutions",
+      "evaluates solutions against objectives",
+      "selects and implements the best solution",
+      "monitors results for effectiveness"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "matrix_method",
+    "name": "Matrix Method",
+    "description": "A technique for organizing and comparing data in a structured format.",
+    "full_text": "Create a matrix with criteria on one axis and options on the other. Populate the matrix with data or scores for each option against each criterion. Analyze the matrix to identify patterns, strengths, and weaknesses. Use the analysis to make informed decisions.",
+    "checkpoints": [
+      "creates a matrix with criteria and options",
+      "populates matrix with data or scores",
+      "analyzes matrix for patterns",
+      "identifies strengths and weaknesses",
+      "uses analysis for decision-making"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "scenario_analysis",
+    "name": "Scenario Analysis",
+    "description": "A method for exploring and preparing for possible future events.",
+    "full_text": "Identify key factors and uncertainties that could impact the future. Develop multiple scenarios based on different combinations of these factors. Analyze each scenario to understand potential outcomes and implications. Use insights to inform strategic planning and risk management.",
+    "checkpoints": [
+      "identifies key factors and uncertainties",
+      "develops multiple scenarios",
+      "analyzes scenarios for outcomes",
+      "understands implications of each scenario",
+      "uses insights for strategic planning"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "hypothesis_generation",
+    "name": "Hypothesis Generation",
+    "description": "A process for developing potential explanations or predictions.",
+    "full_text": "Start by clearly defining the problem or question. Brainstorm possible explanations or predictions, considering various perspectives. Formulate these into testable hypotheses. Prioritize hypotheses based on plausibility and potential impact.",
+    "checkpoints": [
+      "defines the problem or question clearly",
+      "brainstorms multiple explanations or predictions",
+      "formulates testable hypotheses",
+      "prioritizes hypotheses based on criteria"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "red_team_analysis",
+    "name": "Red Team Analysis",
+    "description": "A technique for challenging assumptions and exploring alternative perspectives.",
+    "full_text": "Assemble a team to play the role of an adversary or critic. Challenge existing assumptions and explore alternative perspectives. Identify potential weaknesses or blind spots in current strategies. Use findings to strengthen decision-making and planning.",
+    "checkpoints": [
+      "assembles a team to play adversary",
+      "challenges existing assumptions",
+      "explores alternative perspectives",
+      "identifies weaknesses or blind spots",
+      "uses findings to improve strategies"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "structured_analytic_techniques",
+    "name": "Structured Analytic Techniques",
+    "description": "Provides structured methods to minimize risks in intelligence analysis.",
+    "full_text": "Identify the specific structured analytic techniques relevant to your query. Apply these techniques systematically to analyze the data, ensuring that you consider all potential biases and uncertainties. Use these techniques to derive clear and actionable insights despite incomplete or ambiguous information.",
+    "checkpoints": [
+      "applies at least one structured analytic technique",
+      "addresses potential biases and uncertainties",
+      "derives clear and actionable insights"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "key_assumptions_check",
+    "name": "Key Assumptions Check",
+    "description": "Identifies and evaluates the assumptions underlying an analysis.",
+    "full_text": "Query the data sources to list all assumptions made in the analysis. Evaluate each assumption for validity and impact on conclusions. Document any assumptions that are weak or unsupported by evidence.",
+    "checkpoints": [
+      "lists all assumptions explicitly",
+      "evaluates each assumption's validity",
+      "documents weak or unsupported assumptions"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "indicators_validator",
+    "name": "Indicators Validator",
+    "description": "Validates the indicators used to support analytical conclusions.",
+    "full_text": "Identify all indicators used in the analysis. Query data sources to verify the accuracy and relevance of each indicator. Ensure that indicators are consistently applied and supported by evidence.",
+    "checkpoints": [
+      "identifies all indicators used",
+      "verifies accuracy of indicators",
+      "ensures indicators are supported by evidence"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "what_if_analysis",
+    "name": "What If? Analysis",
+    "description": "Explores potential outcomes by considering alternative scenarios.",
+    "full_text": "Decompose the main question into alternative scenarios using 'What if?' queries. Analyze each scenario for potential outcomes and impacts. Document findings and compare them to the original scenario.",
+    "checkpoints": [
+      "decomposes question into alternative scenarios",
+      "analyzes potential outcomes for each scenario",
+      "compares findings to original scenario"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "structured_brainstorming",
+    "name": "Structured Brainstorming",
+    "description": "Generates ideas collaboratively using a structured approach.",
+    "full_text": "Facilitate a group session to brainstorm ideas using structured prompts. Ensure all participants contribute and document all ideas generated. Organize ideas into categories for further analysis.",
+    "checkpoints": [
+      "facilitates group brainstorming session",
+      "documents all ideas generated",
+      "organizes ideas into categories"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "analysis_of_competing_hypotheses",
+    "name": "Analysis of Competing Hypotheses (ACH)",
+    "description": "Evaluates multiple hypotheses to determine the most likely explanation.",
+    "full_text": "List all possible hypotheses related to the question. Query data sources to gather evidence for each hypothesis. Compare hypotheses using a matrix to identify the most supported explanation.",
+    "checkpoints": [
+      "lists multiple hypotheses explicitly",
+      "gathers evidence for each hypothesis",
+      "compares hypotheses using a matrix"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "premortem_analysis",
+    "name": "Premortem Analysis",
+    "description": "Identifies potential failures before they occur.",
+    "full_text": "Conduct a session to envision potential failures of a plan or decision. Query data sources for factors that could lead to failure. Document findings and develop strategies to mitigate risks.",
+    "checkpoints": [
+      "envisions potential failures",
+      "identifies factors leading to failure",
+      "develops strategies to mitigate risks"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "decomposition_and_visualization",
+    "name": "Decomposition and Visualization",
+    "description": "Breaks down complex issues and visualizes them for clarity.",
+    "full_text": "Decompose the main issue into smaller components. Use visualization tools to map out relationships and dependencies. Ensure clarity and accessibility of information for stakeholders.",
+    "checkpoints": [
+      "decomposes issue into smaller components",
+      "uses visualization tools effectively",
+      "ensures clarity for stakeholders"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "cone_of_plausibility",
+    "name": "Cone of Plausibility",
+    "description": "Assesses the plausibility of different scenarios.",
+    "full_text": "Identify various scenarios related to the issue. Query data sources to assess the plausibility of each scenario. Rank scenarios based on likelihood and impact.",
+    "checkpoints": [
+      "identifies various scenarios",
+      "assesses plausibility of scenarios",
+      "ranks scenarios by likelihood and impact"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "decision_trees",
+    "name": "Decision Trees",
+    "description": "A method for making decisions by mapping out possible outcomes.",
+    "full_text": "Construct a tree diagram to represent decision options and possible outcomes. Query data sources for probabilities and impacts of each branch. Evaluate each path to determine the optimal decision based on expected values.",
+    "checkpoints": [
+      "includes a tree diagram with decision nodes",
+      "calculates expected values for each decision path",
+      "identifies probabilities and impacts for outcomes"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "impact_matrix",
+    "name": "Impact Matrix",
+    "description": "A method to assess the impact of different factors on a decision.",
+    "full_text": "Create a matrix to list factors and their potential impacts on decisions. Query data sources for evidence supporting each factor's influence. Compare and rank factors based on their impact scores.",
+    "checkpoints": [
+      "contains a matrix listing factors and impacts",
+      "ranks factors based on impact scores",
+      "provides evidence for each factor's influence"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "classic_quadrant_crunching_tm",
+    "name": "Classic Quadrant Crunching TM",
+    "description": "A method to categorize ideas into four quadrants for analysis.",
+    "full_text": "Divide ideas into four quadrants based on predefined criteria. Query data sources to gather information supporting each quadrant's categorization. Analyze each quadrant to identify strengths and weaknesses.",
+    "checkpoints": [
+      "divides ideas into four distinct quadrants",
+      "categorizes ideas based on predefined criteria",
+      "analyzes strengths and weaknesses of each quadrant"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "foresight_quadrant_crunching_tm",
+    "name": "Foresight Quadrant Crunching TM",
+    "description": "A method to project future scenarios using quadrant analysis.",
+    "full_text": "Use quadrant analysis to project future scenarios. Query data sources for trends and forecasts relevant to each quadrant. Evaluate potential future outcomes and their implications.",
+    "checkpoints": [
+      "projects future scenarios using quadrant analysis",
+      "includes trends and forecasts for each quadrant",
+      "evaluates implications of potential future outcomes"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "getting_started_checklist",
+    "name": "Getting Started Checklist",
+    "description": "A checklist to ensure all necessary steps are taken before analysis.",
+    "full_text": "Compile a checklist of essential steps before beginning analysis. Query data sources to verify completion of each step. Ensure readiness by checking off each item on the list.",
+    "checkpoints": [
+      "includes a checklist of essential steps",
+      "verifies completion of each step",
+      "ensures readiness by checking off items"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "customer_checklist",
+    "name": "Customer Checklist",
+    "description": "A checklist to ensure customer needs are addressed in analysis.",
+    "full_text": "Create a checklist to address customer needs in analysis. Query data sources for customer feedback and requirements. Confirm that each need is addressed by checking off items on the list.",
+    "checkpoints": [
+      "includes a checklist of customer needs",
+      "addresses customer feedback and requirements",
+      "confirms needs are addressed by checking off items"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "red_hat_analysis",
+    "name": "Red Hat Analysis",
+    "description": "A method to incorporate emotional and intuitive insights into analysis.",
+    "full_text": "Apply Red Hat Analysis to incorporate emotional insights. Query data sources for intuitive and emotional responses related to the topic. Balance rational analysis with emotional insights.",
+    "checkpoints": [
+      "incorporates emotional and intuitive insights",
+      "balances rational analysis with emotional insights",
+      "includes intuitive responses related to the topic"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "indicator_validation_factors_tm",
+    "name": "Indicator Validation Factors TM",
+    "description": "A method to validate indicators used in analysis.",
+    "full_text": "Identify indicators relevant to the analysis. Query data sources to validate each indicator's reliability and relevance. Confirm indicators are valid and applicable to the analysis.",
+    "checkpoints": [
+      "identifies indicators relevant to the analysis",
+      "validates reliability and relevance of indicators",
+      "confirms indicators are valid and applicable"
+    ],
+    "source": "情报分析：结构化分析方法 (小理查兹·J. 霍耶尔，伦道夫·弗森) .pdf"
+  },
+  {
+    "key": "crisp_dm",
+    "name": "CRISP-DM",
+    "description": "A structured framework for data mining projects with phases and tasks.",
+    "full_text": "Begin by understanding the business objectives and success criteria. Collect and describe initial data, ensuring data quality. Prepare data by cleaning, constructing, integrating, and formatting it. Select modeling techniques and build models, assessing their performance. Evaluate results against business success criteria and plan deployment, monitoring, and maintenance. Document the entire process and review project experience.",
+    "checkpoints": [
+      "includes phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment",
+      "lists outputs for each phase, such as 'Data Description Report' and 'Model Assessment'",
+      "states assumptions before drawing conclusions",
+      "contains a project plan with initial assessment of tools and techniques",
+      "documents review of process and project experience"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "situation_assessment",
+    "name": "Assess Situation",
+    "description": "Evaluate the current context and conditions affecting the data mining project.",
+    "full_text": "Query relevant data sources to gather information about the current situation. Identify key factors and constraints impacting the project. Analyze the context to understand the environment in which the data mining will occur. Document findings to inform subsequent steps.",
+    "checkpoints": [
+      "identifies key factors impacting the project",
+      "documents constraints affecting data mining",
+      "provides context for the data mining environment"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_mining_goals",
+    "name": "Determine Data Mining Goals",
+    "description": "Define specific objectives and desired outcomes for the data mining project.",
+    "full_text": "Decompose the project into specific goals by querying stakeholders and reviewing project requirements. Establish clear, measurable objectives that the data mining process should achieve. Ensure alignment with broader business or research goals. Document these goals for reference throughout the project.",
+    "checkpoints": [
+      "lists specific objectives for the project",
+      "aligns goals with broader business or research aims",
+      "documents measurable outcomes for data mining"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "project_planning",
+    "name": "Project Planning",
+    "description": "Outline steps to achieve data mining and business goals.",
+    "full_text": "Query the data sources to produce a project plan that outlines steps to achieve data mining and business goals. Specify stages, tools, and techniques to be used. Ensure the plan is comprehensive and actionable.",
+    "checkpoints": [
+      "outlines steps to achieve goals",
+      "specifies tools and techniques",
+      "is comprehensive and actionable"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_collection",
+    "name": "Collect Initial Data",
+    "description": "Gather relevant data from various sources to begin the data mining process.",
+    "full_text": "Identify and query data sources to collect initial datasets. Ensure data is relevant and sufficient for the project's goals. Document the sources and types of data collected. Verify the completeness and accuracy of the data before proceeding.",
+    "checkpoints": [
+      "documents sources and types of data collected",
+      "verifies completeness and accuracy of data",
+      "ensures data relevance to project goals"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_description",
+    "name": "Data Description",
+    "description": "Examine and report on the surface properties of acquired data.",
+    "full_text": "Query the data source to identify the format, quantity, and identities of fields. Evaluate whether the data meets relevant requirements. Compile findings into a data description report, detailing surface features and any discrepancies.",
+    "checkpoints": [
+      "includes format and quantity of data",
+      "lists identities of fields",
+      "evaluates data against requirements"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_exploration",
+    "name": "Data Exploration",
+    "description": "Address data mining questions using querying, visualization, and reporting techniques.",
+    "full_text": "Query the data to analyze distributions, relationships, and aggregations. Use visualization tools to identify significant sub-populations and perform simple statistical analyses. Document initial findings and hypotheses in a data exploration report, including graphs and plots.",
+    "checkpoints": [
+      "includes distribution analysis of key attributes",
+      "documents initial hypotheses",
+      "contains graphs or plots"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_quality_verification",
+    "name": "Data Quality Verification",
+    "description": "Examine the completeness and correctness of the data, identifying errors and missing values.",
+    "full_text": "Query the data to assess completeness and correctness. Identify errors and missing values, noting their frequency and representation. Compile a data quality report listing verification results and potential solutions, leveraging both data and business knowledge.",
+    "checkpoints": [
+      "lists completeness and correctness of data",
+      "identifies errors and missing values",
+      "proposes solutions to quality problems"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_selection",
+    "name": "Data Selection",
+    "description": "Decide on data for analysis based on relevance, quality, and technical constraints.",
+    "full_text": "Query the dataset to identify attributes and records relevant to the data mining goals. Evaluate the quality and technical constraints such as data volume and types. Decide on inclusion or exclusion of data based on these criteria and document the rationale for each decision.",
+    "checkpoints": [
+      "lists data to be included/excluded",
+      "provides rationale for inclusion/exclusion",
+      "considers relevance to data mining goals"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_cleaning",
+    "name": "Data Cleaning",
+    "description": "Improve data quality to meet analysis technique requirements.",
+    "full_text": "Identify data quality issues reported during the Verify Data Quality task. Apply cleaning techniques such as selecting clean subsets, inserting defaults, or estimating missing data. Document the decisions and actions taken, including transformations and their potential impact on analysis results.",
+    "checkpoints": [
+      "describes actions taken to address data quality",
+      "considers impact of cleaning on analysis results",
+      "reports transformations applied to data"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_construction",
+    "name": "Data Construction",
+    "description": "Create derived attributes or new records for data preparation.",
+    "full_text": "Identify opportunities to construct new attributes from existing ones or generate new records. Perform operations such as deriving attributes or transforming values. Document the creation of derived attributes and generated records, explaining their relevance to the analysis.",
+    "checkpoints": [
+      "includes derived attributes",
+      "documents generated records",
+      "explains relevance of constructed data"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_integration",
+    "name": "Data Integration",
+    "description": "Combine information from multiple tables or records to create new records or values.",
+    "full_text": "Identify tables or records with complementary information about the same objects. Perform merging operations to join these tables, creating new records with combined fields. Consider aggregation operations to summarize information from multiple sources. Document the merged data and any aggregations performed.",
+    "checkpoints": [
+      "describes merged tables",
+      "includes aggregation operations",
+      "documents new records with combined fields"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_formatting",
+    "name": "Data Formatting",
+    "description": "Apply syntactic modifications to data without changing its meaning.",
+    "full_text": "Identify the syntactic requirements of the modeling tool. Modify the dataset to meet these requirements, such as reordering fields or removing unwanted characters. Ensure the data format aligns with the tool's specifications.",
+    "checkpoints": [
+      "modifies data order or structure",
+      "removes or alters specific characters",
+      "ensures compatibility with modeling tool"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "modeling_technique_selection",
+    "name": "Select Modeling Technique",
+    "description": "Choose appropriate modeling methods for data analysis.",
+    "full_text": "Query project goals and data characteristics to select suitable modeling techniques. Evaluate different methods for their applicability and effectiveness. Document the selection process and rationale for chosen techniques. Ensure selected techniques align with project objectives.",
+    "checkpoints": [
+      "documents selection process and rationale",
+      "evaluates methods for applicability",
+      "aligns techniques with project objectives"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "test_design_generation",
+    "name": "Generate Test Design",
+    "description": "Create a plan for testing the model's performance.",
+    "full_text": "Query data and modeling requirements to design tests for model evaluation. Define metrics and criteria for assessing model performance. Document the test design and expected outcomes. Ensure tests are comprehensive and aligned with project goals.",
+    "checkpoints": [
+      "documents test design and expected outcomes",
+      "defines metrics for model performance",
+      "aligns tests with project goals"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "model_building",
+    "name": "Build Model",
+    "description": "Develop a model based on selected techniques and data.",
+    "full_text": "Query data and apply selected modeling techniques to build the model. Implement algorithms and processes to develop the model structure. Document the building process and any challenges faced. Ensure the model is robust and ready for testing.",
+    "checkpoints": [
+      "documents building process and challenges",
+      "implements algorithms for model development",
+      "ensures model robustness"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "model_assessment",
+    "name": "Model Assessment",
+    "description": "Evaluate and rank models based on quality and business objectives.",
+    "full_text": "Interpret the models using domain knowledge and evaluation criteria. Rank the models according to their quality, considering both technical success and business objectives. Compare results from different techniques and revise parameter settings based on assessment outcomes. Document the qualities of each model and iterate until optimal results are achieved.",
+    "checkpoints": [
+      "ranks models based on quality",
+      "considers business objectives in evaluation",
+      "compares results from different techniques",
+      "documents model qualities and assessment outcomes"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "crisp_dm_methodology",
+    "name": "CRISP-DM Methodology",
+    "description": "A structured approach to data mining projects with phases, tasks, and process instances.",
+    "full_text": "Identify the phases of the data mining project. Break down each phase into generic and specialized tasks. Record actions, decisions, and results as process instances. Use the reference model for an overview and the user guide for detailed execution tips.",
+    "checkpoints": [
+      "includes a breakdown of phases and tasks",
+      "records actions, decisions, and results as process instances",
+      "uses both reference model and user guide",
+      "maps generic models to specialized models"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_mining_context_mapping",
+    "name": "Data Mining Context Mapping",
+    "description": "Maps generic models to specialized models based on data mining context dimensions.",
+    "full_text": "Identify the application domain, data mining problem type, technical aspect, and tool and technique dimensions. Map these dimensions to specialized models. Use examples to illustrate each dimension and ensure alignment with the project's objectives.",
+    "checkpoints": [
+      "identifies application domain, problem type, technical aspect, and tool/technique dimensions",
+      "maps dimensions to specialized models",
+      "provides examples for each dimension"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "crisp_dm_mapping",
+    "name": "CRISP-DM Mapping",
+    "description": "Maps generic process models to specialized contexts in data mining projects.",
+    "full_text": "Analyze your specific data mining context by identifying fixed dimensions. Remove irrelevant details and add context-specific information. Specialize generic contents according to the concrete characteristics of your context. Rename generic contents for clarity. Ensure the mapping aligns with the needs of your organization.",
+    "checkpoints": [
+      "analyzes specific context dimensions",
+      "removes non-applicable details",
+      "adds context-specific details",
+      "specializes generic contents",
+      "renames contents for clarity"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "crisp_dm_process_model",
+    "name": "CRISP-DM Process Model",
+    "description": "Provides an overview of the life cycle of a data mining project.",
+    "full_text": "Begin by identifying the six phases of the CRISP-DM process model. Query data sources to understand the sequence and dependencies between these phases. Analyze how the outcome of each phase influences the next steps. Consider the cyclical nature of data mining and how lessons learned can inform future projects.",
+    "checkpoints": [
+      "identifies six phases of the CRISP-DM process",
+      "describes dependencies between phases",
+      "explains the cyclical nature of data mining",
+      "links outcomes of phases to subsequent tasks",
+      "mentions lessons learned for future projects"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "business_understanding",
+    "name": "Business Understanding",
+    "description": "Convert business objectives into a data mining problem definition and preliminary plan.",
+    "full_text": "Query stakeholders to understand project objectives and requirements from a business perspective. Translate these into a clear data mining problem definition. Develop a preliminary plan to achieve the objectives, ensuring alignment with business goals.",
+    "checkpoints": [
+      "defines the data mining problem explicitly",
+      "aligns objectives with business goals",
+      "includes a preliminary plan for achieving objectives"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_understanding",
+    "name": "Data Understanding",
+    "description": "Familiarize with data, identify quality issues, and form hypotheses about hidden information.",
+    "full_text": "Collect initial data and perform exploratory analysis to understand its structure and content. Identify any data quality problems and document them. Discover initial insights and detect interesting subsets to form hypotheses about hidden information.",
+    "checkpoints": [
+      "identifies data quality problems",
+      "documents initial insights into the data",
+      "forms hypotheses regarding hidden information"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_preparation",
+    "name": "Data Preparation",
+    "description": "Construct the final dataset from raw data through selection, transformation, and cleaning.",
+    "full_text": "Select relevant tables, records, and attributes from the raw data. Transform and clean the data to prepare it for modeling tools. Iterate these tasks as needed, ensuring the dataset is ready for modeling.",
+    "checkpoints": [
+      "constructs the final dataset from raw data",
+      "includes data transformation and cleaning",
+      "selects relevant tables, records, and attributes"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "modeling",
+    "name": "Modeling",
+    "description": "Select and apply modeling techniques, calibrating parameters to optimal values.",
+    "full_text": "Choose appropriate modeling techniques for the data mining problem type. Apply these techniques and calibrate their parameters to achieve optimal results. Revisit the data preparation phase if specific data requirements are needed for the techniques.",
+    "checkpoints": [
+      "applies multiple modeling techniques",
+      "calibrates parameters to optimal values",
+      "revisits data preparation if necessary"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "evaluation",
+    "name": "Evaluation",
+    "description": "Evaluate the model to ensure it meets business objectives and review creation steps.",
+    "full_text": "Thoroughly evaluate the built model(s) to ensure they meet the business objectives. Review all steps executed during model creation to identify any overlooked business issues. Decide on the use of data mining results based on this evaluation.",
+    "checkpoints": [
+      "evaluates model against business objectives",
+      "reviews steps executed to create the model",
+      "decides on the use of data mining results"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "deployment",
+    "name": "Deployment",
+    "description": "Organize and present knowledge gained from the model for customer use.",
+    "full_text": "Organize and present the knowledge gained from the model in a usable format for the customer. Implement the model within the organization's decision-making processes, such as real-time personalization or database scoring. Ensure the deployment meets customer requirements, whether simple or complex.",
+    "checkpoints": [
+      "organizes knowledge for customer use",
+      "implements model in decision-making processes",
+      "meets customer deployment requirements"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "determine_business_objectives",
+    "name": "Determine Business Objectives",
+    "description": "Identify and understand the customer's primary and related business objectives.",
+    "full_text": "Query the customer to identify their primary business objective and any related questions they wish to address. Document these objectives clearly, ensuring you understand the business perspective. Consider potential competing objectives and constraints that may influence the project outcome. Record the business success criteria, specifying how success will be measured, whether objectively or subjectively.",
+    "checkpoints": [
+      "describes the customer's primary business objective",
+      "lists related business questions",
+      "includes business success criteria",
+      "mentions competing objectives and constraints",
+      "records background information about the business situation"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "assess_situation",
+    "name": "Assess Situation",
+    "description": "Conduct detailed fact-finding about resources, constraints, and assumptions for the project.",
+    "full_text": "Inventory all available resources, including personnel, data, computing resources, and software. List project requirements, assumptions, and constraints, ensuring legal compliance and data usage permissions. Expand upon the details gathered in the initial assessment to form a comprehensive understanding of the project's context.",
+    "checkpoints": [
+      "lists available resources for the project",
+      "includes project requirements and constraints",
+      "documents assumptions made by the project",
+      "verifies data usage permissions",
+      "expands on initial assessment details"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "assumption_listing",
+    "name": "Assumption Listing",
+    "description": "Identify and list assumptions impacting project validity.",
+    "full_text": "Query the data sources to identify assumptions made about the data and business context. List these assumptions explicitly, distinguishing between verifiable and non-verifiable ones. Ensure that non-verifiable assumptions are highlighted if they affect the validity of results.",
+    "checkpoints": [
+      "lists assumptions explicitly",
+      "distinguishes between verifiable and non-verifiable assumptions",
+      "highlights non-verifiable assumptions affecting validity"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "constraint_listing",
+    "name": "Constraint Listing",
+    "description": "Identify and list constraints affecting project execution.",
+    "full_text": "Query the data sources to identify constraints on resources and technology. List these constraints explicitly, including practical limitations like dataset size. Ensure that all constraints are documented to inform project planning.",
+    "checkpoints": [
+      "lists constraints explicitly",
+      "includes technological constraints like dataset size",
+      "documents all constraints for project planning"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "risk_and_contingency_planning",
+    "name": "Risk and Contingency Planning",
+    "description": "Identify risks and develop contingency plans for project delays or failures.",
+    "full_text": "Query the data sources to identify potential risks or events that could delay or derail the project. List these risks explicitly and develop corresponding contingency plans. Ensure that each risk has a clear action plan associated with it.",
+    "checkpoints": [
+      "lists risks explicitly",
+      "develops contingency plans for each risk",
+      "includes clear action plans for risks"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "terminology_glossary",
+    "name": "Terminology Glossary",
+    "description": "Compile a glossary of relevant business and data mining terminology.",
+    "full_text": "Query the data sources to compile a glossary of terminology relevant to the project. Include both business and data mining terms, providing examples where applicable. Ensure the glossary serves as a knowledge elicitation and education tool.",
+    "checkpoints": [
+      "includes business terminology",
+      "includes data mining terminology",
+      "provides examples for terms"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "cost_benefit_analysis",
+    "name": "Cost-Benefit Analysis",
+    "description": "Compare project costs with potential business benefits.",
+    "full_text": "Query the data sources to construct a cost-benefit analysis for the project. Compare costs with potential benefits, using specific measures like monetary values. Ensure the analysis is detailed and specific to the business context.",
+    "checkpoints": [
+      "compares costs with benefits",
+      "uses specific measures like monetary values",
+      "is detailed and specific to business context"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_mining_goal_setting",
+    "name": "Data Mining Goal Setting",
+    "description": "Define technical objectives to achieve business goals.",
+    "full_text": "Query the data sources to determine data mining goals that align with business objectives. Describe these goals in technical terms, specifying intended outputs and success criteria. Ensure goals are measurable and linked to business objectives.",
+    "checkpoints": [
+      "describes goals in technical terms",
+      "specifies intended outputs",
+      "defines success criteria"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "data_aggregation",
+    "name": "Data Aggregation",
+    "description": "Summarize information from multiple records into new computed values.",
+    "full_text": "Query the source tables to extract relevant records. Summarize these records to compute new values, such as totals or averages. Create a new table with one record per entity, incorporating these computed values as fields.",
+    "checkpoints": [
+      "includes computed fields like totals or averages",
+      "transforms multiple records into single entity records",
+      "provides a summary of original data"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "select_modeling_technique",
+    "name": "Select Modeling Technique",
+    "description": "Choose the specific modeling technique to be applied.",
+    "full_text": "Review the available modeling techniques and their requirements. Select the technique that best fits the data and business objectives. Document the chosen technique and any assumptions it entails.",
+    "checkpoints": [
+      "documents the chosen modeling technique",
+      "lists assumptions related to the technique",
+      "aligns technique with business objectives"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "modeling_assumptions",
+    "name": "Modeling Assumptions",
+    "description": "Record assumptions made by modeling techniques about the data.",
+    "full_text": "Review the chosen modeling technique to identify any assumptions it makes about the data, such as distribution uniformity or symbolic class attributes. Document these assumptions clearly to ensure they are considered during data preparation and model evaluation.",
+    "checkpoints": [
+      "records assumptions about data distributions",
+      "documents assumptions like symbolic class attributes",
+      "considers assumptions during data preparation"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "assumption_recording",
+    "name": "Assumption Recording",
+    "description": "Document assumptions made by modeling techniques about the data.",
+    "full_text": "Identify and list all assumptions made by the modeling techniques regarding the data attributes, distributions, and requirements. Query the dataset to verify these assumptions, ensuring no missing values and symbolic class attributes. Record these assumptions clearly for future reference and validation.",
+    "checkpoints": [
+      "lists specific assumptions about data attributes",
+      "includes verification of assumptions against the dataset",
+      "documents assumptions for future reference"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "evaluate_results",
+    "name": "Evaluate Results",
+    "description": "Assess if the model meets business objectives and identify any deficiencies.",
+    "full_text": "Query the model's performance against business objectives. Identify any deficiencies or areas where the model fails to meet these objectives. Test the model on real applications if feasible. Document findings and assess additional data mining results for future insights.",
+    "checkpoints": [
+      "assesses model against business objectives",
+      "identifies deficiencies in the model",
+      "documents findings from real application tests",
+      "includes insights for future directions"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "review_process",
+    "name": "Review Process",
+    "description": "Conduct a thorough review of the data mining engagement for overlooked factors.",
+    "full_text": "Conduct a comprehensive review of the data mining process to identify any overlooked factors or tasks. Ensure quality assurance by verifying model construction and attribute usage. Summarize findings and highlight missed activities or those needing repetition.",
+    "checkpoints": [
+      "summarizes process review",
+      "highlights missed activities",
+      "verifies model construction",
+      "ensures correct attribute usage"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "determine_next_steps",
+    "name": "Determine Next Steps",
+    "description": "Decide how to proceed based on assessment and process review results.",
+    "full_text": "Analyze the results of the assessment and process review to decide the project's next steps. Consider whether to proceed to deployment, initiate further iterations, or start new projects. Evaluate remaining resources and budget to inform decisions.",
+    "checkpoints": [
+      "lists potential future actions",
+      "considers resource and budget constraints",
+      "decides on project continuation or new initiatives"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "context_mapping",
+    "name": "Context Mapping",
+    "description": "Maps generic process models to specialized contexts in data mining.",
+    "full_text": "Analyze your specific data mining context by identifying fixed dimensions. Remove irrelevant details and add context-specific information. Specialize generic contents according to the concrete characteristics of your context. Rename generic contents for clarity in your specific context.",
+    "checkpoints": [
+      "analyzes specific context dimensions",
+      "removes non-applicable details",
+      "adds context-specific details",
+      "specializes generic contents",
+      "renames contents for clarity"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "crisp_dm_specialization",
+    "name": "CRISP-DM Specialization",
+    "description": "Specializes the CRISP-DM process model for future use in similar contexts.",
+    "full_text": "Systematically specialize the generic CRISP-DM process model according to a pre-defined context. Analyze and consolidate experiences from a single project to create a specialized process model. Write up the specialized model for future usage in comparable contexts.",
+    "checkpoints": [
+      "systematically specializes process model",
+      "analyzes and consolidates project experiences",
+      "creates specialized process model",
+      "writes up model for future use"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "project_plan_analysis",
+    "name": "Project Plan Analysis",
+    "description": "Analyzes the project plan to ensure alignment with data mining and business goals.",
+    "full_text": "Review the project plan to ensure it includes stages, durations, resources, inputs, outputs, and dependencies. Check for large-scale iterations and analyze dependencies between time schedules and risks. Update the plan at the end of each phase based on progress and achievements.",
+    "checkpoints": [
+      "lists stages with durations and resources",
+      "includes analysis of time schedule and risks",
+      "marks large-scale iterations explicitly",
+      "contains review points for updates",
+      "specifies evaluation strategy for the evaluation phase"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "initial_assessment_of_tools",
+    "name": "Initial Assessment of Tools and Techniques",
+    "description": "Evaluates tools and techniques early to influence the project's direction.",
+    "full_text": "Perform an initial assessment of tools and techniques at the end of the first phase. Select a data mining tool that supports various methods for different stages. Consider how the choice of tools and techniques may impact the entire project.",
+    "checkpoints": [
+      "selects a data mining tool",
+      "evaluates tools and techniques early",
+      "considers impact on the entire project"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "initial_data_collection",
+    "name": "Initial Data Collection",
+    "description": "Acquires and loads initial data for understanding and preparation.",
+    "full_text": "Acquire the data listed in the project resources and load it into the necessary tools for data understanding. Document the datasets acquired, their locations, methods used, and any problems encountered. Address integration issues if multiple data sources are involved.",
+    "checkpoints": [
+      "lists datasets acquired with locations",
+      "documents methods used for acquisition",
+      "records problems and resolutions",
+      "addresses integration issues"
+    ],
+    "source": "crisp-dm.pdf"
+  },
+  {
+    "key": "test_design",
+    "name": "Test Design",
+    "description": "Plan for training, testing, and evaluating models.",
+    "full_text": "Query the dataset to determine how to divide it into training, test, and validation sets. Specify the criteria for evaluating model quality, such as error rates. Ensure the test design aligns with the objectives of the data mining task. Document the intended plan clearly, including any assumptions made about the data.",
+    "checkpoints": [
+      "describes dataset division into training, test, and validation sets",
+      "specifies criteria for model evaluation",
+      "documents assumptions about the data",
+      "aligns test design with data mining objectives"
+    ],
+    "source": "crisp-dm.pdf"
+  }
+]

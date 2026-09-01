@@ -1,0 +1,15 @@
+FROM python:3.10-slim-buster
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+COPY src ./src
+COPY config ./config
+
+ENV PYTHONPATH=/app/src
+
+EXPOSE 2733
+
+CMD ["python", "-m", "data2mcp_v2.server.api", "--port", "2733"]

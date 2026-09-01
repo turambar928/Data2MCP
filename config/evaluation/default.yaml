@@ -1,0 +1,5 @@
+defaults:
+  - ../llm@llm: judge
+  - _self_
+
+_target_: data2mcp_v2.config.EvaluationConfig

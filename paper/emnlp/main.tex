@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" for camera-ready.
+% Change to "preprint" for a non-anonymous version with page numbers.
+\usepackage[review]{emnlp/acl}
+
+
+% Standard package includes (recommended by the template)
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% Layout/text improvements (also recommended by the template)
+\usepackage{microtype}
+\usepackage{inconsolata}
+
+% Common packages used in this paper
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,frame=none,backgroundcolor=\color{gray!8}}
+
+% Prevent floats from crossing section boundaries (keeps Intro figures out of the abstract page)
+\usepackage[section]{placeins}
+
+% Optional but useful
+\usepackage{hyperref}
+
+\title{Structured Strategy Injection for Data Analysis Agents}
+
+\author{%
+  Anonymous Authors
+}
+
+\begin{document}
+% 9页！
+
+\maketitle
+
+\input{chapters/abstract}
+\FloatBarrier
+
+\input{chapters/01_introduction}
+
+
+
+\input{chapters/02_related_work}
+
+
+
+\input{chapters/03_method}
+
+
+
+
+\input{chapters/04_experiments}
+
+
+
+
+
+
+
+
+
+
+
+
+\input{chapters/06_conclusion}
+
+
+\input{chapters/05_limitations}
+
+
+
+
+% \section*{Acknowledgements}
+% To be added in the camera-ready version.
+
+% The EMNLP/ACL style file already sets \bibliographystyle{acl_natbib}.
+% Setting it again triggers: "Illegal, another \\bibstyle command".
+%
+% Debug helper: force printing the bibliography even if some \cite keys are missing.
+% Remove/comment this once references resolve.
+\nocite{*}
+\bibliography{references}
+
+\clearpage
+\input{chapters/appendix}
+
+
+
+
+
+\end{document}

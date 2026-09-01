@@ -1,0 +1,37 @@
+\section{Introduction}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/introduction_figure.png}
+  \caption{Overview of the dual-axis data analysis framework. The Data2MCP infrastructure standardizes the spatial complexity of heterogeneous data sources (SQL, KG, Vector DB), while Structured Strategy Injection regulates the temporal execution path of the agent via explicit checkpoints.}
+  \label{fig:intro}
+\end{figure}
+
+Recent advances in Large Language Models (LLMs) have enabled autonomous data analysis agents to interface with specialized databases and unstructured document stores~\cite{gpt4, qwen3}. 
+However, deploying these systems in production environments reveals that data analysis tasks present operational challenges in two distinct dimensions: (1) spatial data fragmentation across heterogeneous modalities, and (2) temporal reasoning drift during multi-turn exploration. 
+Existing agent frameworks generally address only one side of this matrix. Monolithic code-execution sandboxes, such as OpenHands or DA-Agent~\cite{dacomp2025}, are engineered with a depth-first orientation. They perform localized exploratory data analysis (EDA) effectively on centralized, homogeneous data tables, but introduce significant interface friction when cross-source evidence verification is required across structurally diverse systems like relational databases and knowledge graphs.
+
+Furthermore, granting an agent raw access to multi-source tools does not guarantee analytical rigor. 
+Without explicit procedural boundaries, standard agents navigating multi-source environments frequently exhibit erratic reasoning paths—failing to cross-check conflicting evidence, neglecting data quality baselines, or generating conclusions without an auditable verification trail. 
+This limitation stems from current prompting paradigms: established techniques such as Chain-of-Thought~\cite{wei2022cot} and ReAct~\cite{react2023} rely on unstructured, task-specific instructions that lack systematic constraints for multi-stage workflows. In contrast, human analysts rely on formalized methodologies—such as CRISP-DM for data mining~\cite{crispdm2000} or the Analysis of Competing Hypotheses (ACH) for intelligence analysis~\cite{ach1999}—to enforce a global logic on systematic inquiry.
+
+To address the temporal challenge of reasoning drift, we introduce Structured Strategy Injection. This framework embeds domain-expert procedural knowledge directly into the agent's controller context at inference time. 
+By incorporating explicit analytical checkpoints and compliance validation mechanisms, our approach makes agent decisions verifiable and aligned with expert workflows. We evaluate three execution modes with varying degrees of autonomy: Fixed Injection of a specific methodology, Auto-selection from a curated catalog of 74 strategies, and Adaptive Generation of bespoke instructions. Because strategy injection operates strictly at the prompt level, it requires no fine-tuning and remains architecture-agnostic.
+
+An analytical methodology, however, requires a compatible execution environment to be effective. Because expert strategies like ACH depend on cross-source evidence verification, they cannot be fully leveraged in environments restricted to a single data modality. 
+To resolve this spatial constraint, we introduce Data2MCP, a multi-source orchestration framework that integrates SQL databases, Neo4j knowledge graphs, FAISS vector stores, and Pandas DataFrames via the Model Context Protocol (MCP)~\cite{mcp2024}. 
+Data2MCP serves as a general-purpose engineering infrastructure rather than a tailored testbed for strategy evaluation; it resolves spatial heterogeneity through dynamic routing and homogenized tool interfaces. 
+Additionally, its standardized tool schema minimizes integration variance, ensuring that performance changes are attributable to the evaluation of planning interventions rather than ad-hoc integration disparities. Within this unified multi-source environment, the orchestration capabilities of structured strategies can be systematically evaluated.
+
+This separation of concerns—where Data2MCP manages spatial data integration and strategy injection governs temporal reasoning—enables an orthogonal evaluation matrix. 
+We evaluate strategy injection across two distinct architectural paradigms: our breadth-centric Data2MCP framework and the depth-centric code-sandbox infrastructure of DA-Agent. 
+Empirical results show that strategy injection yields consistent performance gains across both systems and multiple underlying LLMs, demonstrating that the two architectural approaches are complementary.
+
+This paper makes three primary contributions:
+\begin{itemize}
+    \item \textbf{Structured Strategy Injection:} A framework that embeds expert methodologies into LLM agents via explicit checkpoints and dual-validation monitoring, enforcing auditable analytical behaviors without parameter updates.
+    
+    \item \textbf{The Data2MCP Infrastructure:} A standalone multi-source orchestration framework that unifies heterogeneous data access under a Router-based MCP architecture, establishing a scalable foundation for decentralized joint reasoning.
+    
+    \item \textbf{Orthogonal Empirical Validation:} Comprehensive evaluations showing that strategy injection consistently enhances performance across distinct architectural paradigms (the breadth-centric Data2MCP and the depth-centric DA-Agent), confirming the generality of the method.
+\end{itemize}

@@ -1,0 +1,20 @@
+defaults:
+  - ../llm@default_llm_config: default
+  - _self_
+
+_target_: data2mcp_v2.config.AgentConfig
+agent_configs:
+  # DAComp SQLite database for a single question
+  # This is a template - the actual path should be set dynamically
+  - _target_: data2mcp_v2.config.SQLAgentConfig
+    tool_name: "dacomp_database"
+    tool_description: "DAComp benchmark database for data analysis"
+    type: "sql_agent"
+    agent_type: "tool-calling"
+    llm_config: ${oc.select:agents.default_llm_config}
+    db_config:
+      _target_: data2mcp_v2.config.SQLDBConfig
+      type: "sqlite"
+      # Path will be set dynamically, e.g.:
+      # Replace the instance ID as needed.
+      file_path: "./data/benchmark/DAComp/dacomp-da/dacomp-001/dacomp-001.sqlite"

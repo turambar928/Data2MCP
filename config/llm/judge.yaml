@@ -1,0 +1,9 @@
+_target_: data2mcp_v2.config.LLMConfig
+
+model: ${oc.env:JUDGE_MODEL,${oc.env:OPENAI_MODEL,gpt-4o-mini}}
+temperature: 0
+max_tokens: 8192
+timeout_seconds: 600
+max_retries: 3
+base_url: ${oc.env:JUDGE_BASE_URL,${oc.env:OPENAI_BASE_URL,https://api.openai.com/v1}}
+api_key: ${oc.env:JUDGE_API_KEY,${oc.env:OPENAI_API_KEY,''}}

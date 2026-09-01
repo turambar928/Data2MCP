@@ -1,0 +1,44 @@
+_target_: data2mcp_v2.config.Data2McpConfig
+route_type: "agentic"
+tool_call_timeout: 900
+tool_call_max_length: 10000
+max_turns: 30
+llm:
+  _target_: data2mcp_v2.config.LLMConfig
+  model: gpt-4o-mini
+  temperature: 0
+  max_tokens: 8192
+  timeout_seconds: 600
+  max_retries: 3
+  base_url: https://api.openai.com/v1
+  api_key: ""
+agents:
+  _target_: data2mcp_v2.config.AgentConfig
+  default_llm_config:
+    _target_: data2mcp_v2.config.LLMConfig
+    model: gpt-4o-mini
+    temperature: 0
+    max_tokens: 8192
+    timeout_seconds: 600
+    max_retries: 3
+    base_url: https://api.openai.com/v1
+    api_key: ""
+  agent_configs:
+    - _target_: data2mcp_v2.config.SQLAgentConfig
+      tool_name: "example_sales"
+      tool_description: "Synthetic monthly sales by region and product"
+      type: "sql_agent"
+      agent_type: "tool-calling"
+      llm_config:
+        _target_: data2mcp_v2.config.LLMConfig
+        model: gpt-4o-mini
+        temperature: 0
+        max_tokens: 8192
+        timeout_seconds: 600
+        max_retries: 3
+        base_url: https://api.openai.com/v1
+        api_key: ""
+      db_config:
+        _target_: data2mcp_v2.config.SQLDBConfig
+        type: "sqlite"
+        file_path: "./data/examples/sales.sqlite"
