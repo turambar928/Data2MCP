@@ -1,9 +1,20 @@
 # Data2MCP
 
-Data2MCP is a router-based framework for data analysis agents. It exposes
+Data2MCP is the official implementation accompanying the paper
+[*Structured Strategy Injection for Data Analysis Agents*](https://openreview.net/forum?id=2EeNisg3Xk).
+It is a router-based framework for data analysis agents that exposes
 heterogeneous data sources as MCP-compatible tools, dispatches tool calls in a
 multi-turn controller, and supports structured analysis strategies with
 post-execution compliance checks.
+
+## Associated paper
+
+This repository and the paper are a single project. The paper presents the
+structured strategy injection method and the Data2MCP architecture; the code
+here provides the implementation, configuration templates, demo interface, and
+reproduction utilities described there.
+
+Read the paper on [OpenReview](https://openreview.net/forum?id=2EeNisg3Xk).
 
 The current implementation supports:
 
@@ -21,7 +32,6 @@ config/                 Hydra configuration templates
 data/                   Example data and benchmark download instructions
 demo/                   React/Vite web interface
 docs/guides/            Strategy implementation guides
-paper/emnlp/            Paper source and figures
 scripts/                Demo and evaluation utilities
 src/data2mcp_v2/        Python package
 tests/                   Offline smoke tests
@@ -105,12 +115,6 @@ cd demo && npm run lint && npm run build
 The smoke tests are offline. Adapter integration tests require their respective
 data services and model credentials.
 
-## Paper
-
-The manuscript source is under `paper/emnlp/`. The paper introduces structured
-strategy injection and describes Data2MCP's data, orchestration, and strategy
-layers.
-
 ## Security
 
 DataFrame agents can execute model-generated Python when
@@ -120,9 +124,9 @@ isolated environment. Database users should be read-only. See
 
 ## Citation
 
-Citation metadata will be added after the paper's public bibliographic record is
-available. Until then, cite the paper title *Structured Strategy Injection for
-Data Analysis Agents* and this repository URL.
+Please use the citation information provided by
+[the OpenReview record](https://openreview.net/forum?id=2EeNisg3Xk). The paper
+title is *Structured Strategy Injection for Data Analysis Agents*.
 
 ## License
 
