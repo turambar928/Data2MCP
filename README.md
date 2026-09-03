@@ -1,23 +1,29 @@
-# Data2MCP
+<div align="center">
+
+<h1>Data2MCP</h1>
 
 [![Paper: OpenReview](https://img.shields.io/badge/Paper-OpenReview-b31b1b)](https://openreview.net/forum?id=2EeNisg3Xk)
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.10-3776ab?logo=python&logoColor=white)](https://www.python.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MCP](https://img.shields.io/badge/Protocol-MCP-5b5bd6)](https://modelcontextprotocol.io/)
 
-Data2MCP is the official implementation accompanying the paper
-[*Structured Strategy Injection for Data Analysis Agents*](https://openreview.net/forum?id=2EeNisg3Xk).
+<p><a href="README.md">English</a> · <a href="README_zh-CN.md">中文</a></p>
+
+<p>Data2MCP is the official implementation accompanying the paper<br>
+<a href="https://openreview.net/forum?id=2EeNisg3Xk"><em>Structured Strategy Injection for Data Analysis Agents</em></a>.
 It is a router-based framework for data analysis agents that exposes
 heterogeneous data sources as MCP-compatible tools, dispatches tool calls in a
 multi-turn controller, and supports structured analysis strategies with
-post-execution compliance checks.
+post-execution compliance checks.</p>
 
-[Paper](https://openreview.net/forum?id=2EeNisg3Xk) · [Quick start](#quick-start) · [Strategy injection](#strategy-injection) · [Configuration](#configuration) · [Evaluation](#evaluation) · [Security](#security)
+<p><a href="https://openreview.net/forum?id=2EeNisg3Xk">Paper</a> · <a href="#quick-start">Quick start</a> · <a href="#strategy-injection">Strategy injection</a> · <a href="#configuration">Configuration</a> · <a href="#evaluation">Evaluation</a> · <a href="#security">Security</a></p>
 
-> **Project status**
-> This is the public research release corresponding to the OpenReview paper.
-> The core implementation is available; benchmark datasets and external data
-> services must be obtained and configured separately.
+<p><strong>Project status</strong><br>
+This is the public research release corresponding to the OpenReview paper.<br>
+The core implementation is available; benchmark datasets and external data
+services must be obtained and configured separately.</p>
+
+</div>
 
 ## Associated paper
 
