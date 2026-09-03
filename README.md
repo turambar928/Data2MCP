@@ -1,11 +1,12 @@
-<div align="center">
+<h1 align="center">Data2MCP</h1>
 
-<h1>Data2MCP</h1>
-
+<p align="center">
 [![Paper: OpenReview](https://img.shields.io/badge/Paper-OpenReview-b31b1b)](https://openreview.net/forum?id=2EeNisg3Xk)
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.10-3776ab?logo=python&logoColor=white)](https://www.python.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MCP](https://img.shields.io/badge/Protocol-MCP-5b5bd6)](https://modelcontextprotocol.io/)
+</p>
+
 
 <p><a href="README.md">English</a> · <a href="README_zh-CN.md">中文</a></p>
 
