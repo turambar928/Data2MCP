@@ -1,39 +1,27 @@
 <h1 align="center">Data2MCP</h1>
 
-<p align="center">
-[![Paper: OpenReview](https://img.shields.io/badge/Paper-OpenReview-b31b1b)](https://openreview.net/forum?id=2EeNisg3Xk)
+<div align="center">
+
+[![Paper: Findings of EMNLP 2026](https://img.shields.io/badge/Paper-Findings_of_EMNLP_2026-b31b1b)](https://aclanthology.org/2026.findings-emnlp.1279/)
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.10-3776ab?logo=python&logoColor=white)](https://www.python.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MCP](https://img.shields.io/badge/Protocol-MCP-5b5bd6)](https://modelcontextprotocol.io/)
-</p>
-
 
 <p><a href="README.md">English</a> · <a href="README_zh-CN.md">中文</a></p>
 
-<p>Data2MCP is the official implementation accompanying the paper<br>
-<a href="https://openreview.net/forum?id=2EeNisg3Xk"><em>Structured Strategy Injection for Data Analysis Agents</em></a>.
-It is a router-based framework for data analysis agents that exposes
-heterogeneous data sources as MCP-compatible tools, dispatches tool calls in a
-multi-turn controller, and supports structured analysis strategies with
-post-execution compliance checks.</p>
+<p>Official implementation of<br>
+<em>Structured Strategy Injection for Data Analysis Agents</em>.</p>
 
-<p><a href="https://openreview.net/forum?id=2EeNisg3Xk">Paper</a> · <a href="#quick-start">Quick start</a> · <a href="#strategy-injection">Strategy injection</a> · <a href="#configuration">Configuration</a> · <a href="#evaluation">Evaluation</a> · <a href="#security">Security</a></p>
-
-<p><strong>Project status</strong><br>
-This is the public research release corresponding to the OpenReview paper.<br>
-The core implementation is available; benchmark datasets and external data
-services must be obtained and configured separately.</p>
+<p><a href="#quick-start">Quick start</a> · <a href="#strategy-injection">Strategy injection</a> · <a href="#configuration">Configuration</a> · <a href="#evaluation">Evaluation</a> · <a href="#security">Security</a> · <a href="#citation">Citation</a></p>
 
 </div>
 
-## Associated paper
+## Overview
 
-This repository and the paper are a single project. The paper presents the
-structured strategy injection method and the Data2MCP architecture; the code
-here provides the implementation, configuration templates, demo interface, and
-reproduction utilities described there.
-
-Read the paper on [OpenReview](https://openreview.net/forum?id=2EeNisg3Xk).
+Data2MCP is a router-based framework for data analysis agents. It exposes
+heterogeneous data sources as MCP-compatible tools, coordinates multi-turn
+tool calls, and supports structured analysis strategies with post-execution
+validation.
 
 The current implementation supports:
 
@@ -64,8 +52,7 @@ Natural-language query
 ```
 
 The strategy module controls the analytical procedure, while the Data2MCP
-router provides source-agnostic execution. This separation is the central
-design described in the paper.
+router coordinates execution across data sources.
 
 ## Strategy injection
 
@@ -192,11 +179,6 @@ cd demo && npm run lint && npm run build
 The smoke tests are offline. Adapter integration tests require their respective
 data services and model credentials.
 
-## News
-
-- **2026-09-03**: Public repository release synchronized with the associated
-  OpenReview paper.
-
 ## Security
 
 DataFrame agents can execute model-generated Python when
@@ -206,9 +188,34 @@ isolated environment. Database users should be read-only. See
 
 ## Citation
 
-Please use the citation information provided by
-[the OpenReview record](https://openreview.net/forum?id=2EeNisg3Xk). The paper
-title is *Structured Strategy Injection for Data Analysis Agents*.
+If you use Data2MCP in your research, please cite:
+
+```bibtex
+@inproceedings{tao-etal-2026-structured,
+    title = "Structured Strategy Injection for Data Analysis Agents",
+    author = "Tao, Zifu  and
+      Mo, Guozhao  and
+      Zhou, Weixiang  and
+      Lu, Yaojie  and
+      Lin, Hongyu  and
+      He, Ben  and
+      Han, Xianpei  and
+      Sun, Le",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1279/",
+    pages = "27100--27123",
+    ISBN = "979-8-89176-462-0",
+    abstract = "Data analysis agents often produce shallow or non-auditable summaries because they lack the explicit reasoning frameworks and validation habits used by domain experts, especially when evidence must be gathered across heterogeneous data sources. We propose structured strategy injection, which injects compact methodology specifications with explicit checkpoints into an agent{'}s controller context, turning expert workflows into executable plans and enabling compliance-based transparency. To make such methodology-driven planning executable and auditable in heterogeneous settings, we introduce Data2MCP, a router-based orchestration infrastructure that standardizes SQL databases, knowledge graphs, vector stores, and tables as MCP-compatible tools and routes queries dynamically for multi-source retrieval and join-like reasoning. We compare Data2MCP against a RAG baseline and DA-Agent across multi-source retrieval, DAComp, and BIRD MiniDev. In multi-source retrieval, Data2MCP outperforms DA-Agent, and strategy injection benefits both architectures. On DAComp, strategy injection improves DA-Agent from 50.84 to 57.17 (+6.33). The code is available at https://github.com/turambar928/Data2MCP."
+}
+```
 
 ## License
 
